@@ -114,26 +114,44 @@ button.linkedIn {
     display: block;
     margin: auto;
     background-color: #0101CA;
-    font-family: 'Bangers', cursive;
 }
 
 button.linkedIn a {
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 30px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    padding-left: 25px;
+}
+
+button.linkedIn a:before {
+    content: '\f0e1'; /* LinkedIn font awesome unicode */
+    font-family: fontAwesome;
+    position: absolute;
+    left: 3px;
 }
 
 button.gitHub {
     display: block;
     margin: auto;
     background-color: #0101CA;
-    font-family: 'Bangers', cursive;
 }
 
 button.gitHub a {
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 30px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    padding-left: 35px;
+}
+
+button.gitHub a:before {
+    content: '\f09b'; /* GitHub font awesome unicode */
+    font-family: fontAwesome;
+    position: absolute;
+    left: 3px;
 }
 
 /*========== Footer ==========*/
